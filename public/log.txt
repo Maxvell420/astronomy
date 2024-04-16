@@ -1,0 +1,21 @@
+started parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240310213236
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240310213236
+started parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240310212240
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240310212240
+started parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240310201625
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240310201625
+started parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240309204213
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240309204213
+gstarted parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240309193350
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240309193350
+started parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240308195800
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240308195800
+started parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240308194128
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240308194128
+started parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240308174937
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240308174937
+started parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240307204442
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240307204442
+started parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240307200052
+ended parsing https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20240307200052
+ended parsing session successfully

@@ -1,0 +1,392 @@
+HTTP/1.1 200 OK
+Date: Tue, 06 Feb 2024 08:22:03 GMT
+Server: Apache/2.4.41 (FreeBSD) OpenSSL/1.1.1d-freebsd PHP/7.4.3
+Access-Control-Allow-Origin: *.yandex.*
+Access-Control-Allow-Origin: *.turbopages.org
+Access-Control-Allow-Headers: origin, x-requested-with, content-type
+Access-Control-Allow-Methods: GET
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Новости астрономии - Cтраница 1</title>
+<meta name="title" content="Новости астрономии - Cтраница 1">
+<meta name="Description" content="">
+<meta name="viewport" content="width=device-width">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<meta name="HandheldFriendly" content="True"/>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/js/common.js"></script>
+<link href="/lightgallery/skins/default/style.css" type="text/css" media="screen" rel="stylesheet">
+<script src="/lightgallery/lightgallery.min.js" type="text/javascript"></script>
+<link rel="shortcut icon" type="image/x-icon" href="https://www.astronews.ru/favicon.ico">
+<link rel="apple-touch-icon" type="image/png" href="https://www.astronews.ru/astronews_touch.png">
+<script type="text/javascript">
+lightgallery.init();
+</script>
+</head>
+<body>
+	<div class="menubg"></div>
+	<nav class="mobile-menu">
+		<ul>			<li><a href="/cgi-bin/mng.cgi?page=go">Войти</a> <a href="/cgi-bin/mng.cgi?page=reg">Регистрация</a></li>			<li><a></a></li>
+			<li><a href="/">На главную</a></li>
+			<li><a href="/cgi-bin/mng.cgi?page=news">Последние новости</a></li>
+			<li><a href="/cgi-bin/mng.cgi?page=event">В этот день в космосе</a></li>
+			<li><a href="/cgi-bin/whatinspace.cgi">Что сейчас в космосе</a></li>
+			<li><a href="/cgi-bin/whoinspace.cgi">Кто сейчас в космосе</a></li>
+			<li><a href="/cgi-bin/spaceman.cgi">Космонавты</a></li>
+			<li><a href="/cgi-bin/mng.cgi?page=eventmonth">Астрономический календарь</a></li>
+			<li><a href="/cgi-bin/mng.cgi?page=question">Общение</a></li>
+			<li><a href="https://www.astrozona.ru" target="_blank">Магазин</a></li>
+			<li><a href="/cgi-bin/mng.cgi?page=glossary">Словарь терминов</a></li>
+			<li><a href="/cgi-bin/moononline.cgi">Луна онлайн</a></li>
+			<li><a href="/cgi-bin/mng.cgi?page=find">Поиск</a></li>
+			<li><a href="https://sobe.ru/na/astronews24">Поддержка проекта</a></li>
+			<li><a href="/cgi-bin/mng.cgi?page=contact">Контакты</a></li>
+		</ul>
+	</nav>
+	<nav class="top-menu">
+		<div class="wrap">
+			<ul>
+				<li><a href="/cgi-bin/mng.cgi?page=news">Новости</a></li>
+				<li><a href="/cgi-bin/mng.cgi?page=event">В этот день в космосе</a></li>
+				<li><a href="https://www.astrozona.ru" target="_blank"><font color="red">Магазин</font></a></li>
+				<li><a href="/cgi-bin/whoinspace.cgi">Кто сейчас в космосе</a></li>
+				<li><a href="/cgi-bin/spaceman.cgi">Космонавты</a></li>
+			</ul><div class="links"><img src="/img/user.png"> <a href="/cgi-bin/mng.cgi?page=go">Войти</a> или <a href="/cgi-bin/mng.cgi?page=reg">Зарегистрироваться</a></div><div class="clear"></div>
+		</div>
+	</nav>
+	<header class="header">
+		<div class="wrap">
+			<div class="logo">
+				<a href="/"><img src="/img/logo.png"></a>
+			</div>
+			<div class="menu-button">
+				<i class="fa fa-bars"></i>
+			</div>
+			<ul>
+				<li><a href="/cgi-bin/mng.cgi?page=eventmonth" class="active">Календарь</a></li>
+				<li><a href="/cgi-bin/mng.cgi?page=question" class="active">Общение</a></li>
+				<li><a href="/cgi-bin/moononline.cgi" class="active">Луна онлайн</a></li>
+				<li><a href="/cgi-bin/mng.cgi?page=glossary" class="active">Словарь</a></li><li><div class="block_header_poisk"><div class="ya-site-form ya-site-form_inited_no" data-bem="{&quot;action&quot;:&quot;https://astronews.ru/cgi-bin/mng.cgi?page=find&quot;,&quot;arrow&quot;:false,&quot;bg&quot;:&quot;transparent&quot;,&quot;fontsize&quot;:12,&quot;fg&quot;:&quot;#000000&quot;,&quot;language&quot;:&quot;ru&quot;,&quot;logo&quot;:&quot;rb&quot;,&quot;publicname&quot;:&quot;????? ?? AstroNews.ru&quot;,&quot;suggest&quot;:true,&quot;target&quot;:&quot;_self&quot;,&quot;tld&quot;:&quot;ru&quot;,&quot;type&quot;:2,&quot;usebigdictionary&quot;:false,&quot;searchid&quot;:2367504,&quot;input_fg&quot;:&quot;#000000&quot;,&quot;input_bg&quot;:&quot;#ffffff&quot;,&quot;input_fontStyle&quot;:&quot;normal&quot;,&quot;input_fontWeight&quot;:&quot;normal&quot;,&quot;input_placeholder&quot;:&quot;&quot;,&quot;input_placeholderColor&quot;:&quot;#000000&quot;,&quot;input_borderColor&quot;:&quot;#7f9db9&quot;}"><form action="https://yandex.ru/search/site/" method="get" target="_self" accept-charset="utf-8"><input type="hidden" name="searchid" value="2367504"/><input type="hidden" name="l10n" value="ru"/><input type="hidden" name="reqenc" value=""/><input type="search" name="text" value=""/><input type="submit" value="?????"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script></div></li>			</ul>
+			<div class="clear"></div>
+		</div>
+	</header>
+	<div class="wrap">
+		<div class="banner-place"><div id="yandex_rtb_R-A-140935-3" style="max-height: 250px;"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-140935-3',
+    blockId: 'R-A-140935-3'
+  })
+})</script></div>
+	</div><div class="block-name small">
+		<div class="wrap">
+			<a href="/" class="name">новости космоса</a>
+			<a href="?page=news" class="right-link">Новости астрономии</a>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="top-page-text">Последние новости</div><br>
+		<div class="pages"> <a href="?page=news&str=1" class="active">1</a>  <a href="?page=news&str=2">2</a>  <a href="?page=news&str=3">3</a>  <a href="?page=news&str=4">4</a>  <a href="?page=news&str=5">5</a>  <a href="?page=news&str=6">6</a>  <a href="?page=news&str=7">7</a>  <a href="?page=news&str=8">8</a>  <a href="?page=news&str=9">9</a>  <a href="?page=news&str=10">10</a>  <a href="?page=news&str=11">11</a>  <a href="?page=news&str=12">12</a>  <a href="?page=news&str=13">13</a>  <a href="?page=news&str=14">14</a>  <a href="?page=news&str=15">15</a> </div><div class="news-page"><a href="?page=news&news=20240205204757"><img src="/news/2024/20240205204757.jpg" border=0 width=250 height=188 title="НАСА в поисках коммерческих миссий на Марс" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 317
+				<img src="/img/count2.png"> 5
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 05.02.2024 21:48</div>
+			<a href="?page=news&news=20240205204757" class="name">НАСА в поисках коммерческих миссий на Марс</a>
+			<p>НАСА предложило частному сектору представить предложения по коммерческим полетам на Марс. Эти миссии будут варьироваться от доставки различных полезных грузов на Красную планету до предоставления услуг ретрансляции связи... <a href="?page=news&news=20240205204757">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/img/nofoto.jpg"> <a href="?page=user&id=5111"><b>smitty00000</a><sup>24</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240205204836"><img src="/news/2024/20240205204836.jpg" border=0 width=250 height=188 title="«Хаббл» рассматривает тусклую спиральную галактику UGC 11105" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 302
+				<img src="/img/count2.png"> 0
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 05.02.2024 20:54</div>
+			<a href="?page=news&news=20240205204836" class="name">«Хаббл» рассматривает тусклую спиральную галактику UGC 11105</a>
+			<p>Это изображение спиральной галактики UGC 11105 получено космическим телескопом НАСА/ЕКА "Хаббл". Она находится примерно в 110 миллионах световых лет от Земли в созвездии Геркулеса. У астрономов есть разные способы количе... <a href="?page=news&news=20240205204836">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/img/nofoto.jpg"> <a href="?page=user&id="><b></a><sup></sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240205203335"><img src="/news/2024/20240205203335.jpg" border=0 width=250 height=188 title="Российский космонавт Олег Кононенко побил мировой рекорд по суммарному пребыванию на орбите" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 213
+				<img src="/img/count2.png"> 0
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 05.02.2024 20:47</div>
+			<a href="?page=news&news=20240205203335" class="name">Российский космонавт Олег Кононенко побил мировой рекорд по суммарному пребыванию на орбите</a>
+			<p>Российский космонавт Олег Кононенко побил мировой рекорд по суммарному времени пребывания в космосе, сообщил в воскресенье "Роскосмос". На данный момент Олег Коненко провел в космосе более 878 дней и 12 часов, превзойдя ... <a href="?page=news&news=20240205203335">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/img/nofoto.jpg"> <a href="?page=user&id="><b></a><sup></sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240204204039"><img src="/news/2024/20240204204039.jpg" border=0 width=250 height=188 title="Команда астрономов обнаружила необычную карликовую галактику" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 773
+				<img src="/img/count2.png"> 8
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 04.02.2024 21:06</div>
+			<a href="?page=news&news=20240204204039" class="name">Команда астрономов обнаружила необычную карликовую галактику</a>
+			<p>Команда астрономов во главе с сотрудником Университета штата Аризона Тимом Карлтоном обнаружила карликовую галактику на снимках космического телескопа "Джеймс Уэбб" (JWST). В недавно опубликованном исследовании Карлтон и... <a href="?page=news&news=20240204204039">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/img/nofoto.jpg"> <a href="?page=user&id=5311"><b>makemake</a><sup>7</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240204201118"><img src="/news/2024/20240204201118.jpg" border=0 width=250 height=188 title="Ученые составили самый полный список медленно нарастающих солнечных вспышек на сегодняшний день" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 1300
+				<img src="/img/count2.png"> 9
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 04.02.2024 20:36</div>
+			<a href="?page=news&news=20240204201118" class="name">Ученые составили самый полный список медленно нарастающих солнечных вспышек на сегодняшний день</a>
+			<p>Солнечные вспышки возникают, когда магнитная энергия накапливается в атмосфере Солнца и высвобождается в виде электромагнитного излучения. Вспышки, длящиеся от нескольких минут до нескольких часов, обычно достигают темпе... <a href="?page=news&news=20240204201118">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/500.jpg"> <a href="?page=user&id=500"><b>MP</a><sup>205</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240203210713"><img src="/news/2024/20240203210713.jpg" border=0 width=250 height=188 title="Лед и пламя: Антарктический вулкан используют в поисках жизни на Марсе" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 728
+				<img src="/img/count2.png"> 29
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 03.02.2024 21:57</div>
+			<a href="?page=news&news=20240203210713" class="name">Лед и пламя: Антарктический вулкан используют в поисках жизни на Марсе</a>
+			<p>На острове Десепшн в Антарктиде от пляжей поднимается пар, а черные склоны действующего вулкана усеяны ледниками — редкое столкновение льда и огня, которое дает ученым ключ к пониманию того, как могла бы выглядеть жизнь ... <a href="?page=news&news=20240203210713">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/4081.jpg"> <a href="?page=user&id=4081"><b>Teddy</a><sup>82</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240203201803"><img src="/news/2024/20240203201803.jpg" border=0 width=250 height=188 title="Астероид 2011 MD приблизится к Земле 4 февраля" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 780
+				<img src="/img/count2.png"> 7
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 03.02.2024 21:06</div>
+			<a href="?page=news&news=20240203201803" class="name">Астероид 2011 MD приблизится к Земле 4 февраля</a>
+			<p>4 февраля астероид 2011 MD совершит сближение с Землей. Хотя астероид не будет виден невооруженным глазом, он пройдет на расстоянии 15 000 000 км от Земли. Этот околоземный астероид делает оборот вокруг Солнца за 396 дне... <a href="?page=news&news=20240203201803">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/5308.jpg"> <a href="?page=user&id=5308"><b>Catarchean</a><sup>6</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240202194944"><img src="/news/2024/20240202194944.jpg" border=0 width=250 height=188 title="Космический самолет Dream Chaser прошел испытание на вибрацию" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 742
+				<img src="/img/count2.png"> 23
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 02.02.2024 20:27</div>
+			<a href="?page=news&news=20240202194944" class="name">Космический самолет Dream Chaser прошел испытание на вибрацию</a>
+			<p>Космический корабль Sierra Space Dream Chaser прошел испытания на мощной вибрационной установке НАСА, которая имитирует условия во время запуска и возвращения в атмосферу, сообщили официальные лица в четверг. Первый косм... <a href="?page=news&news=20240202194944">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/4081.jpg"> <a href="?page=user&id=4081"><b>Teddy</a><sup>82</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240202194600"><img src="/news/2024/20240202194600.jpg" border=0 width=250 height=188 title="Cygnus летит к Международной космической станции" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 454
+				<img src="/img/count2.png"> 2
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 02.02.2024 19:49</div>
+			<a href="?page=news&news=20240202194600" class="name">Cygnus летит к Международной космической станции</a>
+			<p>На этом снимке, сделанном 30 января 2024 года, грузовой космический корабль Cygnus без экипажа стартует на ракете SpaceX Falcon 9, начиная свое путешествие к Международной космической станции. Запускаемый из Космического... <a href="?page=news&news=20240202194600">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/5277.jpg"> <a href="?page=user&id=5277"><b>Cancer</a><sup>14</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240202193455"><img src="/news/2024/20240202193455.jpg" border=0 width=250 height=188 title="«Хаббл» сделал снимок галактики UGC 3912" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 503
+				<img src="/img/count2.png"> 2
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 02.02.2024 19:45</div>
+			<a href="?page=news&news=20240202193455" class="name">«Хаббл» сделал снимок галактики UGC 3912</a>
+			<p>На новом подробном снимке космического телескопа "Хаббл" запечатлена галактика UGC 3912. Она классифицируется как спиральная галактика, однако такая искаженная форма, как у UGC 3912, обычно указывает на гравитационное вз... <a href="?page=news&news=20240202193455">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/4081.jpg"> <a href="?page=user&id=4081"><b>Teddy</a><sup>82</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20231221122917"><img src="/news/2024/20231221122917.jpg" border=0 width=250 height=188 title="Астрономический календарь на февраль 2024 года" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 649
+				<img src="/img/count2.png"> 6
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 01.02.2024 21:30</div>
+			<a href="?page=news&news=20231221122917" class="name">Астрономический календарь на февраль 2024 года</a>
+			<p>9 февраля: Луна будет находиться на самой близкой к Земле орбите, но, к сожалению, это "суперлуние" будет слишком близко к Солнцу, чтобы быть видимым для наблюдателей на земле. Несмотря на близость к Земле, наблюдатели з... <a href="?page=news&news=20231221122917">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/5277.jpg"> <a href="?page=user&id=5277"><b>Cancer</a><sup>14</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240201200232"><img src="/news/2024/20240201200232.jpg" border=0 width=250 height=188 title="Ученые исследовали событие приливного разрушения AT 2023clx" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 699
+				<img src="/img/count2.png"> 8
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 01.02.2024 20:32</div>
+			<a href="?page=news&news=20240201200232" class="name">Ученые исследовали событие приливного разрушения AT 2023clx</a>
+			<p>Международная команда астрономов провела многоволновые наблюдения за AT 2023clx — самым близким к Земле событием приливного разрушения (TDE). Результаты кампании наблюдений, опубликованные 22 января на сервере предварите... <a href="?page=news&news=20240201200232">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/4688.jpg"> <a href="?page=user&id=4688"><b>ostman</a><sup>51</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240201194704"><img src="/news/2024/20240201194704.jpg" border=0 width=250 height=188 title="Астероид размером с небоскреб пролетит мимо Земли в пятницу" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 701
+				<img src="/img/count2.png"> 5
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 01.02.2024 19:58</div>
+			<a href="?page=news&news=20240201194704" class="name">Астероид размером с небоскреб пролетит мимо Земли в пятницу</a>
+			<p>Астероид размером с небоскреб пролетит в пятницу на расстоянии 2,7 миллиона километров от Земли. Не волнуйтесь: у него нет шансов задеть нас, поскольку он пролетит на расстоянии, в семь раз превышающем расстояние от Земл... <a href="?page=news&news=20240201194704">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/3986.jpg"> <a href="?page=user&id=3986"><b>puzzler</a><sup>80</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240201192639"><img src="/news/2024/20240201192639.jpg" border=0 width=250 height=188 title="Японский посадочный модуль SLIM  снова ушел в спящий режим" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 562
+				<img src="/img/count2.png"> 0
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 01.02.2024 19:47</div>
+			<a href="?page=news&news=20240201192639" class="name">Японский посадочный модуль SLIM  снова ушел в спящий режим</a>
+			<p>После кратковременного пробуждения японский лунный модуль снова вышел из строя, но возобновит свою миссию, если переживет двухнедельную лунную ночь, сообщило космическое агентство JAXA в четверг. Посадочный модуль SLIM п... <a href="?page=news&news=20240201192639">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/img/nofoto.jpg"> <a href="?page=user&id="><b></a><sup></sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240131205535"><img src="/news/2024/20240131205535.jpg" border=0 width=250 height=188 title="Исследователи вырастили нут, используя лунную пыль в качестве почвы" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 829
+				<img src="/img/count2.png"> 18
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 31.01.2024 21:32</div>
+			<a href="?page=news&news=20240131205535" class="name">Исследователи вырастили нут, используя лунную пыль в качестве почвы</a>
+			<p>Аспирантка факультета почвоведения и растениеводства Техасского колледжа сельского хозяйства и естественных наук Джессика Аткин смогла вырастить в лунной пыли нут. Используя имитацию лунной пыли Аткин и ее коллеги выращи... <a href="?page=news&news=20240131205535">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/3299.jpg"> <a href="?page=user&id=3299"><b>Bong</a><sup>96</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240131203521"><img src="/news/2024/20240131203521.jpg" border=0 width=250 height=188 title="Свечение атмосферы Земли можно увидеть с Международной космической станции" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 522
+				<img src="/img/count2.png"> 5
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 31.01.2024 20:40</div>
+			<a href="?page=news&news=20240131203521" class="name">Свечение атмосферы Земли можно увидеть с Международной космической станции</a>
+			<p>На снимке с высокой экспозицией, сделанном с Международной космической станции 21 января 2024 года, видно свечение атмосферы Земли на фоне звезд. В то время орбитальная лаборатория находилась в 415 километрах над Тихим о... <a href="?page=news&news=20240131203521">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/5308.jpg"> <a href="?page=user&id=5308"><b>Catarchean</a><sup>6</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240131200500"><img src="/news/2024/20240131200500.jpg" border=0 width=250 height=188 title="«Хаббл» наблюдает галактику NGC 5427" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 542
+				<img src="/img/count2.png"> 5
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 31.01.2024 20:27</div>
+			<a href="?page=news&news=20240131200500" class="name">«Хаббл» наблюдает галактику NGC 5427</a>
+			<p>Галактика NGC 5427 запечатлена на этом новом снимке космического телескопа НАСА "Хаббл". Она является частью пары галактик Arp 271. Вторая галактика, NGC 5426, расположена чуть ниже, за пределами кадра этого изображения.... <a href="?page=news&news=20240131200500">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/4081.jpg"> <a href="?page=user&id=4081"><b>Teddy</a><sup>82</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240130210500"><img src="/news/2024/20240130210500.jpg" border=0 width=250 height=188 title="НАСА хочет установить на Луне огромный телескоп" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 1201
+				<img src="/img/count2.png"> 11
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 30.01.2024 22:10</div>
+			<a href="?page=news&news=20240130210500" class="name">НАСА хочет установить на Луне огромный телескоп</a>
+			<p>В рамках миссий "Артемида" НАСА намерено создать всю необходимую инфраструктуру для создания "устойчивой программы исследования и освоения Луны". Это включает в себя орбитальную среду обитания, которая позволит совершать... <a href="?page=news&news=20240130210500">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/5308.jpg"> <a href="?page=user&id=5308"><b>Catarchean</a><sup>6</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240130202901"><img src="/news/2024/20240130202901.jpg" border=0 width=250 height=188 title="Астрономы обнаружили суперземлю со сверхкоротким периодом обращения" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 634
+				<img src="/img/count2.png"> 1
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 30.01.2024 21:02</div>
+			<a href="?page=news&news=20240130202901" class="name">Астрономы обнаружили суперземлю со сверхкоротким периодом обращения</a>
+			<p>Используя спутник NASA TESS, международная команда астрономов обнаружила новую экзопланету со сверхкоротким периодом обращения. Планета Wolf 327 b примерно в 2,5 раза массивнее Земли. О находке сообщалось в статье, опубл... <a href="?page=news&news=20240130202901">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/974.jpg"> <a href="?page=user&id=974"><b>Leonid3</a><sup>180</sup></b></div>
+			<div class="clear"></div>
+		</div><div class="news-page"><a href="?page=news&news=20240130201127"><img src="/news/2024/20240130201127.jpg" border=0 width=250 height=188 title="Для астронавтов миссии НАСА «Артемида» установили корзины аварийного выхода на стартовой площадке" class="img_l"></a>
+			<div class="counts">
+				<img src="/img/count1.png"> 565
+				<img src="/img/count2.png"> 1
+			</div>
+			<div class="date"><i class="fa fa-clock-o"></i> 30.01.2024 20:29</div>
+			<a href="?page=news&news=20240130201127" class="name">Для астронавтов миссии НАСА «Артемида» установили корзины аварийного выхода на стартовой площадке</a>
+			<p>Команды из программы НАСА "Исследовательские наземные системы" приступили к установке четырех корзин аварийного выхода на стартовой площадке 39B в Космическом центре Кеннеди во Флориде в рамках подготовки к миссии НАСА "... <a href="?page=news&news=20240130201127">подробнее »</a></p>
+			<div class="clear"></div>
+			<div class="share"><script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script><script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script><div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,lj,tumblr,viber,whatsapp"></div></div>
+			<div class="author"><img src="/user/4081.jpg"> <a href="?page=user&id=4081"><b>Teddy</a><sup>82</sup></b></div>
+			<div class="clear"></div>
+		</div><br/>
+		<div class="pages"> <a href="?page=news&str=1" class="active">1</a>  <a href="?page=news&str=2">2</a>  <a href="?page=news&str=3">3</a>  <a href="?page=news&str=4">4</a>  <a href="?page=news&str=5">5</a>  <a href="?page=news&str=6">6</a>  <a href="?page=news&str=7">7</a>  <a href="?page=news&str=8">8</a>  <a href="?page=news&str=9">9</a>  <a href="?page=news&str=10">10</a>  <a href="?page=news&str=11">11</a>  <a href="?page=news&str=12">12</a>  <a href="?page=news&str=13">13</a>  <a href="?page=news&str=14">14</a>  <a href="?page=news&str=15">15</a> </div><div class="banner-place"><div id="yandex_rtb_R-A-140935-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-140935-4',
+    blockId: 'R-A-140935-4'
+  })
+})</script></div>
+		<footer class="footer">
+			<div class="logo">
+				<a href="/"><img src="/img/flogo.png"></a>
+				<div class="social">
+					<a href="https://dzen.ru/astronews" target="_blank"><img src="/img/social9.png"></a>
+					<a href="https://vk.com/astronews" target="_blank"><img src="/img/social2.png"></a>
+					<a href="https://ok.ru/astronews" target="_blank"><img src="/img/social3.png"></a>
+					<a href="https://t.me/astronews24" target="_blank"><img src="/img/social7.png"></a>
+				</div>
+			</div>
+			<nav>
+				<ul class="first">
+					<li><a href="/" class="active">Новости космоса</a></li>
+					<li><a href="https://www.astrozona.ru" class="active">Интернет-магазин</a></li>
+					<li><a href="/cgi-bin/moononline.cgi" class="active">Луна онлайн</a></li>
+					<li><a href="/cgi-bin/moonphases.cgi" class="active">Фазы Луны</a></li>
+				</ul>
+				<ul class="second">
+					<li><a href="/cgi-bin/mng.cgi?page=news&n=arh">Архив новостей</a></li>
+					<li><a href="/cgi-bin/mng.cgi?page=top">ТОП новостей</a></li>
+					<li><a href="https://sobe.ru/na/astronews24">Поддержка проекта</a></li>
+					<li><a href="/cgi-bin/whatinspace.cgi">Что сейчас в космосе</a></li>
+					<li><a href="/cgi-bin/whoinspace.cgi">Кто сейчас в космосе</a></li>
+				</ul>
+				<ul class="second">
+					<li><a href="/cgi-bin/spaceman.cgi">Список космонавтов</a></li>
+					<li><a href="/cgi-bin/mng.cgi?page=event">В этот день в космосе</a></li>
+					<li><a href="/cgi-bin/jupitersatellites.cgi">Положение спутников Юпитера</a></li>
+					<li><a href="/cgi-bin/mng.cgi?page=eventmonth">Астрономический календарь</a></li>
+					<li><a href="/cgi-bin/mng.cgi?page=glossary">Словарь терминов</a></li>
+				</ul>
+				<ul class="second">
+					<li><a href="/cgi-bin/mng.cgi?page=rules">Правила</a></li>
+					<li><a href="/cgi-bin/mng.cgi?page=question">Общение</a></li>
+					<li><a href="/cgi-bin/mng.cgi?page=partner">Партнеры</a></li>
+					<li><a href="/cgi-bin/mng.cgi?page=contact">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="counters">
+			<a href="https://metrika.yandex.ru/stat/?id=11328580&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/11328580/3_0_4A86A6FF_2A6686FF_1_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="11328580" data-lang="ru" /></a><script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter11328580 = new Ya.Metrika({ id:11328580, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/11328580" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+			</div>
+			<div class="clear"></div>
+		</footer>
+		<div class="copy">© 2002-2024. Все права защищены. AstroNews.ru | Перепечатка любых материалов сайта без разрешения редакции запрещена!</div>
+	</div>
+</body>
+</html>
