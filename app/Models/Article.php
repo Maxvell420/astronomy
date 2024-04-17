@@ -17,6 +17,18 @@ class Article extends Model
     {
         return $this->hasMany(Comment::class);
     }
+    public function users()
+    {
+        return $this->belongsToMany(User::class,'articles_users','article_id','user_id');
+    }
+    public function getNumberOfLikes()
+    {
+        return $this->users()->count();
+    }
+    public function getNumberOfComments()
+    {
+        return $this->comments()->count();
+    }
     public function cancel()
     {
         $this->comments()->delete();
@@ -24,5 +36,24 @@ class Article extends Model
         $picture->deletePicture();
         $picture->delete();
         $this->delete();
+    }
+    public function attachLikeHref()
+    {
+        $route = route('article.like',$this->id);
+        $this->setAttribute('like',$route);
+    }
+    public function articleLiked():bool
+    {
+        if (auth()->check()){
+            $id = auth()->id();
+            $user = auth()->user();
+            $liked= $user->article_liked($this);
+            if ($liked){
+                return true;
+            } else{
+                return false;
+            }
+        }
+        return false;
     }
 }

@@ -5,11 +5,15 @@
         </h2>
         <div class="article">
             <img src="/{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}">
+            <x-articlePanel :liked="$liked" :likes="$likes" :comments="$commentsNumber" :article="$article"/>
             <p>
                 {{$article->content}}
             </p>
         </div>
         <div class="comments">
+                @foreach($comments as $comment)
+                    <x-comment :comment="$comment"/>
+                @endforeach
             <div class="newComment">
                 <form action="{{route('comment.store',$article)}}" method="post">
                     @csrf
@@ -19,21 +23,10 @@
                     <input type="submit">
                 </form>
             </div>
-            <div>
-                @foreach($article->comments->sortBy('updated_at') as $comment)
-                    <div class="comment">
-                        <p>
-                            User: {{$comment->user->name}}
-                        </p>
-                        <p>
-                            {{$comment->text}}
-                        </p>
-                        <p>
-                            {{$comment->created_at}}
-                        </p>
-                    </div>
-                @endforeach
-            </div>
         </div>
     </div>
 </x-content>
+<script>
+    addArticleLikeEvent()
+    addCommentsLikeEvent()
+</script>

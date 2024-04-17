@@ -11,12 +11,36 @@ class ArticleController extends Controller
     public function show(Article $article)
     {
         $article->load(['picture', 'comments.user']);
-        return view('article.show', compact('article'));
+        $commentsNumber = $article->getNumberOfComments();
+        $likes = $article->getNumberOfLikes();
+        $liked = $article->articleLiked();
+        $article->attachLikeHref();
+        $comments = $article->comments->sortBy('updated_at');
+        $comments = $comments->each(function ($comment) {
+            $comment->attachLikeHref();
+            if (auth()->check()){
+                $comment->setLikedBy(auth()->user());
+            }
+            $commentsLikes = $comment->getNumberOfLikes();
+            $comment->setNumberOfLikesAttribute($commentsLikes);
+        });
+        return view('article.show', compact(['article','commentsNumber','liked','likes','comments']));
     }
     public function edit(Article $article)
     {
         $article->load('picture');
         return view('article.edit', compact('article'));
+    }
+    public function like(string|int $article_id)
+    {
+        $user_id = auth()->id();
+        $article = Article::find($article_id);
+        $article->users()->toggle($user_id);
+        $comments = $article->getNumberOfComments();
+        $likes = $article->getNumberOfLikes();
+        $liked = $article->articleLiked();
+        $article->attachLikeHref();
+        return view('components.articlePanel',compact(['article','comments','liked','likes']));
     }
     public function update(Request $request,Article $article)
     {
