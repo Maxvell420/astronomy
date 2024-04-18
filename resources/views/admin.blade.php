@@ -3,7 +3,15 @@
         <h2>
             Панель управления
         </h2>
-            <a href="{{route('parser')}}"><div class="button_parser">Запустить парсер</div></a>
+        <form action="{{route('parser')}}" method="post">
+            <span>Запустить парсер сайта:</span>
+            <select name="parser">
+                <option value="0">Lenta.ru</option>
+                <option value="1">Astronews.ru</option>
+            </select>
+            @csrf
+            <button class="button_parser">Запустить парсер</button>
+        </form>
         <div class="articles">
             @foreach($articles as $article)
                 <div class="admin_row">

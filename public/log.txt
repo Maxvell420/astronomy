@@ -25,3 +25,47 @@ ended parsing https://lenta.ru/news/2024/04/17/ob-ispolzovanii-sputnikov/
 started parsing https://lenta.ru/news/2024/04/16/v-indii-uvelichat-gruzopod-emnost-raket/
 ended parsing https://lenta.ru/news/2024/04/16/v-indii-uvelichat-gruzopod-emnost-raket/
 ended parsing session successfully
+started parsing https://lenta.ru/rubrics/science/cosmos/
+ended parsing https://lenta.ru/rubrics/science/cosmos/
+started parsing https://lenta.ru/news/2024/04/18/starliner-pribyl-na-kosmodrom/
+ended parsing https://lenta.ru/news/2024/04/18/starliner-pribyl-na-kosmodrom/
+started parsing https://lenta.ru/news/2024/04/18/ssha-zahoteli-vysaditsya-na-lunu-ranshe-kitaya/
+ended parsing https://lenta.ru/news/2024/04/18/ssha-zahoteli-vysaditsya-na-lunu-ranshe-kitaya/
+started parsing https://lenta.ru/news/2024/04/18/v-rossii-nachali-ispytaniya-pervogo-nanosputnika-s-radiolokatorom/
+ended parsing https://lenta.ru/news/2024/04/18/v-rossii-nachali-ispytaniya-pervogo-nanosputnika-s-radiolokatorom/
+started parsing https://lenta.ru/news/2024/04/17/progress-ms-27-otpravyat-k-mks-v-mae/
+ended parsing https://lenta.ru/news/2024/04/17/progress-ms-27-otpravyat-k-mks-v-mae/
+started parsing https://lenta.ru/news/2024/04/17/roskosmos-vpervye-ispytal-dvigatel-dlya-tyazheloy-angary-a5m/
+ended parsing https://lenta.ru/news/2024/04/17/roskosmos-vpervye-ispytal-dvigatel-dlya-tyazheloy-angary-a5m/
+started parsing https://lenta.ru/news/2024/04/17/tyazheluyu-angaru-a5m-zapustyat-v-2027-godu/
+ended parsing https://lenta.ru/news/2024/04/17/tyazheluyu-angaru-a5m-zapustyat-v-2027-godu/
+started parsing https://lenta.ru/news/2024/04/17/stali-izvestny-sroki-otpravki-rossiyskih-grifonov-na-kosmodrom/
+ended parsing https://lenta.ru/news/2024/04/17/stali-izvestny-sroki-otpravki-rossiyskih-grifonov-na-kosmodrom/
+started parsing https://lenta.ru/news/2024/04/17/pervyy-zapuschennyy-s-vostochnogo-sputnik-zavershil-rabotu-na-orbite/
+ended parsing https://lenta.ru/news/2024/04/17/pervyy-zapuschennyy-s-vostochnogo-sputnik-zavershil-rabotu-na-orbite/
+started parsing https://lenta.ru/news/2024/04/17/mask-nachal-zhdat-demonstratsiyu-rossiyskoy-bumazhnoy-rakety/
+ended parsing https://lenta.ru/news/2024/04/17/mask-nachal-zhdat-demonstratsiyu-rossiyskoy-bumazhnoy-rakety/
+started parsing https://lenta.ru/news/2024/04/17/ob-ispolzovanii-sputnikov/
+ended parsing https://lenta.ru/news/2024/04/17/ob-ispolzovanii-sputnikov/
+ended parsing session successfully
+started parsing https://lenta.ru/news/2024/04/16/v-indii-uvelichat-gruzopod-emnost-raket/
+ended parsing https://lenta.ru/news/2024/04/16/v-indii-uvelichat-gruzopod-emnost-raket/
+started parsing https://lenta.ru/news/2024/04/16/sputniki-marafon-zapustyat-do-kontsa-2024-goda/
+ended parsing https://lenta.ru/news/2024/04/16/sputniki-marafon-zapustyat-do-kontsa-2024-goda/
+started parsing https://lenta.ru/news/2024/04/16/stali-izvestny-vozmozhnosti-novoy-rossiyskoy-rakety/
+ended parsing https://lenta.ru/news/2024/04/16/stali-izvestny-vozmozhnosti-novoy-rossiyskoy-rakety/
+started parsing https://lenta.ru/news/2024/04/16/v-rossii-zayavili-o-podgotovke-ssha-k-voyne-v-kosmose/
+ended parsing https://lenta.ru/news/2024/04/16/v-rossii-zayavili-o-podgotovke-ssha-k-voyne-v-kosmose/
+started parsing https://lenta.ru/news/2024/04/16/raskryto-proishozhdenie-novoy-rossiyskoy-rakety/
+ended parsing https://lenta.ru/news/2024/04/16/raskryto-proishozhdenie-novoy-rossiyskoy-rakety/
+started parsing https://lenta.ru/news/2024/04/15/roskosmos-otkazalsya-reklamirovat-sobachiy-korm/
+ended parsing https://lenta.ru/news/2024/04/15/roskosmos-otkazalsya-reklamirovat-sobachiy-korm/
+started parsing https://lenta.ru/news/2024/04/15/star-wind/
+ended parsing https://lenta.ru/news/2024/04/15/star-wind/
+started parsing https://lenta.ru/news/2024/04/14/evropa-ob-yavila-o-planah-po-zapusku-missii-exomars/
+ended parsing https://lenta.ru/news/2024/04/14/evropa-ob-yavila-o-planah-po-zapusku-missii-exomars/
+started parsing https://lenta.ru/news/2024/04/13/ssha-otrabotayut-na-orbite-otrazhenie-ataki-rossiyskogo-sputnika/
+ended parsing https://lenta.ru/news/2024/04/13/ssha-otrabotayut-na-orbite-otrazhenie-ataki-rossiyskogo-sputnika/
+started parsing https://lenta.ru/news/2024/04/12/kitayskiy-sputnik-retranslyator-proshel-ispytaniya-na-okololunnoy-orbite/
+ended parsing https://lenta.ru/news/2024/04/12/kitayskiy-sputnik-retranslyator-proshel-ispytaniya-na-okololunnoy-orbite/
+ended parsing session successfully

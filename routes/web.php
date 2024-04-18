@@ -24,7 +24,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/article/{article}/edit',[ArticleController::class,'edit'])->name('article.edit');
         Route::post('/article/{article}/update',[ArticleController::class,'update'])->name('article.update');
         Route::post('/article/{article}/cancel',[ArticleController::class,'cancel'])->name('article.cancel');
-        Route::get('/parse',[ParserController::class,'parse'])->name('parser');
+        Route::post('/parse',[ParserController::class,'parse'])->name('parser');
         Route::post('article/{article_id}/like}',[ArticleController::class,'like'])->name('article.like');
         Route::post('comment/{comment_id}/like}',[CommentController::class,'like'])->name('comment.like');
     });

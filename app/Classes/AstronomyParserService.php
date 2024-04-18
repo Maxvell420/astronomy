@@ -29,7 +29,7 @@ class AstronomyParserService extends ParserService
         foreach ($news as $item){
             if ($this->counter>=10){
                 $this->log('ended parsing session successfully');
-                exit();
+                return;
             }
             $this->log("started parsing $item->url");
             $options = ['headers'=>1,'redirects'=>1,'variable'=>1];

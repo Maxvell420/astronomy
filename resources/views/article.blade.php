@@ -1,41 +1,19 @@
 <x-content>
-    <div class="form">
-        <h3 style="margin: 20px">
-            New Article Form
+    <div class="editWrapper" style="min-width: 800px">
+        <h3 class="editHead">
+            Редактирование новости:
         </h3>
-        <form action="{{route('article.save')}}" method="Post" enctype="multipart/form-data">
+        <form action="{{route('article.save')}}" method="Post" enctype="multipart/form-data" class="editForm">
             @csrf
-            <table>
-                <tr>
-                    <td>
-                        Title
-                    </td>
-                    <td>
-                        <label>
-                            <input required type="text" name="title" placeholder="title" value="{{old('title')}}">
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Content
-                    </td>
-                    <td>
-                        <label>
-                            <textarea style="margin: 10px;width: 400px;height: 300px" required name="content" placeholder="content">{{old('content')}}</textarea>
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Image Download
-                    </td>
-                    <td>
-                        <input required type="file" name="image" alt="download image" accept="image/*">
-                    </td>
-                </tr>
-            </table>
-            <input type="submit">
+            <label for="title">Заголовок</label>
+            <input type="text" id="title" name="title" value="{{old('title')}}">
+            <label for="content">Текст Новости</label>
+            <textarea id="content" name="content"></textarea>
+            <label for="file">Заменить изображение</label>
+            <div class="editImageDiv">
+                <input type="file" id="file" name="image" alt="Загрузить изображение" accept="image/*">
+            </div>
+            <button class="save-button">Сохранить</button>
         </form>
     </div>
 </x-content>

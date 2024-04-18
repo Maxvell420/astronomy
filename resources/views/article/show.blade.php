@@ -3,6 +3,7 @@
         <h2>
             {{$article->title}}
         </h2>
+        <a href="{{$article->original}}" class="original">Оригинал</a>
         <div class="article">
             <div class="articleImg">
                 <img src="/{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}">

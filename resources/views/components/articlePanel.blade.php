@@ -10,5 +10,7 @@
             @endif
         </button>
     </form>
-    <div>Лайков:{{$likes}}</div>
+    <div>
+        Лайков:{{$likes}}
+    </div>
 </div>
