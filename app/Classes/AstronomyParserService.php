@@ -102,6 +102,6 @@ class AstronomyParserService extends ParserService
     }
     private function articlePageCheck(string $url):bool
     {
-        return preg_match("#news=\d+$#",$url);
+        return preg_match("#^news=\d+$#",$url);
     }
 }

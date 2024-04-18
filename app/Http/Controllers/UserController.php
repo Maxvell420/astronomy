@@ -41,9 +41,16 @@ class UserController extends Controller
     public function dashboard()
     {
         $articles = Article::with(['picture'])
-            ->select(['id','title','updated_at'])
+            ->select(['id','title','content','updated_at','created_at'])
             ->orderBy('updated_at','desc')
             ->simplePaginate(10);
+        $articles->each(function ($article) {
+            $likes = $article->getNumberOfLikes();
+            $article->setNumberOfLikesAttribute($likes);
+            $numberOfComments = $article->getNumberOfComments();
+            $article->setNumberOfCommentsAttribute($numberOfComments);
+            $article->setTextPreview($article->content);
+        });
         return view('dashboard',compact(['articles']));
     }
     public function sign()
@@ -53,9 +60,16 @@ class UserController extends Controller
     public function admin()
     {
         $articles = Article::with(['picture'])
-            ->select(['id','title','updated_at'])
+            ->select(['id','title','content','updated_at','created_at'])
             ->orderBy('updated_at','desc')
             ->simplePaginate(10);
+        $articles->each(function ($article) {
+            $likes = $article->getNumberOfLikes();
+            $article->setNumberOfLikesAttribute($likes);
+            $numberOfComments = $article->getNumberOfComments();
+            $article->setNumberOfCommentsAttribute($numberOfComments);
+            $article->setTextPreview($article->content);
+        });
         return view('admin',compact(['articles']));
     }
     public function save(Request $request)

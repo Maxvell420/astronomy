@@ -7,26 +7,26 @@
                 <table>
                     <tr>
                         <th>
-                            Login form
+                            Вход
                         </th>
                     </tr>
                     <tr>
                         <td>
-                            Name
+                            Логин
                         </td>
                         <td>
                             <label>
-                                <input type="text" name="name" value="{{old('name')}}" placeholder="name">
+                                <input type="text" name="name" value="{{old('name')}}" placeholder="Пароль">
                             </label>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            Password
+                            Пароль
                         </td>
                         <td>
                             <label>
-                                <input type="password" name="password" value="{{old('password')}}" placeholder="password">
+                                <input type="password" name="password" value="{{old('password')}}" placeholder="Пароль">
                             </label>
                         </td>
                     </tr>

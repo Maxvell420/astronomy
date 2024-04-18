@@ -29,6 +29,14 @@ async function getUpdatedArticlePanel(href,bodyToken){
 export function addCommentsLikeEvent(){
     let comments = document.querySelectorAll('.comment')
     comments.forEach(function (comment){
+        let form = comment.querySelector('form')
+        comment.addEventListener('mouseover',function (){
+            displayButton(form)
+        })
+        comment.addEventListener('mouseout',function (){
+            hideButton(form)
+        })
+
         addEventToComment(comment)
     })
 }
@@ -55,5 +63,18 @@ async function commentLikeEvent(comment){
     tempElement.innerHTML = newHTML;
     let newComment = tempElement.firstChild;
     comment.parentNode.replaceChild(newComment, comment);
+    let form = newComment.querySelector('form')
+    newComment.addEventListener('mouseover',function (){
+        displayButton(form)
+    })
+    newComment.addEventListener('mouseout',function (){
+        hideButton(form)
+    })
     await addEventToComment(newComment);
+}
+function displayButton(comment){
+    comment.classList.remove('invisible')
+}
+function hideButton(comment){
+    comment.classList.add('invisible')
 }

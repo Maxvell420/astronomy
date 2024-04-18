@@ -1,14 +1,16 @@
 <x-content>
-    <div class="wrapper">
+    <div class="articleWrapper">
         <h2>
             {{$article->title}}
         </h2>
         <div class="article">
-            <img src="/{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}">
-            <x-articlePanel :liked="$liked" :likes="$likes" :comments="$commentsNumber" :article="$article"/>
-            <p>
+            <div class="articleImg">
+                <img src="/{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}">
+            </div>
+            <div class="articleText">
                 {{$article->content}}
-            </p>
+                <x-articlePanel :liked="$liked" :likes="$likes" :comments="$commentsNumber" :article="$article"/>
+            </div>
         </div>
         <div class="comments">
                 @foreach($comments as $comment)
@@ -17,10 +19,8 @@
             <div class="newComment">
                 <form action="{{route('comment.store',$article)}}" method="post">
                     @csrf
-                    <label>
-                        <textarea name="text" placeholder="new comment..."></textarea>
-                    </label>
-                    <input type="submit">
+                    <textarea id="newComment" name="text" placeholder="Новый комментарий..."></textarea>
+                    <button type="submit">Отправить </button>
                 </form>
             </div>
         </div>

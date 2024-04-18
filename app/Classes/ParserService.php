@@ -29,6 +29,8 @@ abstract class ParserService
         }
 //        curl_setopt($curl, CURLOPT_HTTPHEADER, ['Cookie: beget=begetok; expires=Thu, 12 Sep 2024 10:47:40 GMT; path=/']);
         $page = curl_exec($curl);
+//        file_put_contents('text.txt',$page);
+//        die();
         $status = curl_getinfo($curl,CURLINFO_HTTP_CODE);
         if ($status === 404 or $status==410){
             sleep(2);

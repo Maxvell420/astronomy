@@ -1,5 +1,5 @@
 <div data-like="{{$article->like}}" class="panel">
-    <span>{{$likes}}</span>
+    <div>Комментариев:{{$comments}}</div>
     <form>
         <input type="hidden" name="_token" value="{{csrf_token()}}">
         <button @guest disabled @endguest>
@@ -10,5 +10,5 @@
             @endif
         </button>
     </form>
-    <span>{{$comments}}</span>
+    <div>Лайков:{{$likes}}</div>
 </div>

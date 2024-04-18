@@ -25,9 +25,26 @@ class Article extends Model
     {
         return $this->users()->count();
     }
+    public function setNumberOfLikesAttribute($likes)
+    {
+        $this->attributes['likes'] = $likes;
+    }
     public function getNumberOfComments()
     {
         return $this->comments()->count();
+    }
+    public function setNumberOfCommentsAttribute($comments)
+    {
+        $this->setAttribute('comments', $comments);
+    }
+    public function setTextPreview(string $text)
+    {
+        if (mb_strlen($text)>400) {
+            $text = mb_substr($text, 0, 400).'...';
+        } else{
+            $text = mb_substr($text, 0, 400);
+        }
+        $this->setAttribute('previewText',$text);
     }
     public function cancel()
     {

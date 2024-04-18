@@ -1,49 +1,26 @@
 <x-content>
-    <div class="form">
-        <h4 style="margin: 10px;padding: 10px">
-            Edit Article: {{$article->title}}
-        </h4>
-        <form action="{{route('article.update',[$article])}}" method="post" enctype="multipart/form-data">
+        <h3 class="editHead">
+            Редактирование новости:
+        </h3>
+        <form action="{{route('article.update',[$article])}}" method="post" enctype="multipart/form-data" class="editForm">
             @csrf
-            <table>
-                <tr>
-                    <td>
-                        Title
-                    </td>
-                    <td>
-                        <label>
-                            <input type="text" name="title" value="{{old('title')??$article->title}}">
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Content of Article
-                    </td>
-                    <td>
-                        <label>
-                            <textarea style="margin: 10px;    width: 800px;height: 200px;" name="content">{{$article->content}}</textarea>
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img style="height: 200px;width: 200px" src="/{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}">
-                    </td>
-                    <td>
-                        <p>
-                            image change
-                        </p>
-                        <label>
-                            <input type="file" name="image" alt="download image" accept="image/*">
-                        </label>
-                    </td>
-                </tr>
-            </table>
-                <label>
-
-                    <input type="submit" value="edit article">
-                </label>
+            <div>
+                <label for="title">Заголовок</label>
+                <input type="text" id="title" name="title" value="{{old('title')??$article->title}}">
+            </div>
+            <div>
+                <label for="content">Текст Новости</label>
+                <textarea id="content" name="content">{{$article->content}}</textarea>
+            </div>
+            <div>
+                <label for="file">Заменить изображение</label>
+                <div class="editImageDiv">
+                    <img src="/{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}" class="editImage">
+                    <input type="file" id="file" name="image" alt="Загрузить изображение" accept="image/*">
+                </div>
+            </div>
+            <div>
+                <button>Сохранить</button>
+            </div>
         </form>
-    </div>
 </x-content>

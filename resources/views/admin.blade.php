@@ -1,42 +1,44 @@
 <x-content>
     <div class="wrapper">
-
         <h2>
-            Astronomy news previews
+            Панель управления
         </h2>
             <a href="{{route('parser')}}"><div class="button_parser">Запустить парсер</div></a>
-        <table>
+        <div class="articles">
             @foreach($articles as $article)
-                <tr class="admin_row">
-                    <td>
-                        <div class="preview">
-                            <a href="{{route('article.show',$article)}}">
-                                <img src="{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}">
+                <div class="admin_row">
+                    <div class="preview">
+                        <a href="{{route('article.show',$article)}}">
+                            <img src="{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}">
+                            <div>
                                 <h2>
                                     {{$article->title}}
                                 </h2>
-                            </a>
-                        </div>
-                    </td>
-                    <td class="preview_buttons">
-                        <a href="{{route('article.create')}}">
-                            <div class="create">
-                                new Article
+                                <div class="previewText">
+                                    {{$article->previewText}}
+                                </div>
+                                <div class="articleInfo">
+                                    <div>{{$article->created_at}}</div>
+                                    <div class="likes">Комментариев:{{$article->comments}} Лайков:{{$article->likes}}</div>
+                                </div>
                             </div>
                         </a>
-                        <a href="{{route('article.edit',$article)}}">
-                            <div class="edit">
-                                edit article
-                            </div>
-                        </a>
-                        <form action="{{route('article.cancel',$article)}}" method="post">
-                            @csrf
-                            <input class="delete" type="submit" value="delete article">
+                    </div>
+                    <div class="preview_buttons">
+                        <form action="{{route('article.edit',$article)}}">
+                            <button class="edit">Редактировать</button>
                         </form>
-                    </td>
-                </tr>
+                        <form action="{{route('article.cancel',$article)}}" method="post">
+                            <button class="delete">Удалить</button>
+                            @csrf
+                        </form>
+                    </div>
+                </div>
             @endforeach
-        </table>
+        </div>
         {{$articles}}
     </div>
 </x-content>
+<script>
+    appendArticleCreateButton("{{route('article.create')}}")
+</script>
