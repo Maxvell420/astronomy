@@ -1,7 +1,7 @@
-<x-content>
+<x-layout :styles="$styles">
     <div class="editWrapper">
         <h3 class="editHead">
-            Редактирование новости:
+            Редактирование новости: {{$article->title}}
         </h3>
         <form action="{{route('article.update',[$article])}}" method="post" enctype="multipart/form-data" class="editForm">
             @csrf
@@ -12,9 +12,12 @@
             <label for="file">Заменить изображение</label>
             <div class="editImageDiv">
                 <img src="/{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}" class="editImage">
-                <input type="file" id="file" name="image" alt="Загрузить изображение" accept="image/*">
+                <label for="file" class="custom-file-input">
+                    <span>Выбрать файл</span>
+                    <input type="file" id="file" name="image" accept="image/*">
+                </label>
             </div>
             <button class="save-button">Сохранить</button>
         </form>
     </div>
-</x-content>
+</x-layout>

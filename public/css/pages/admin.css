@@ -1,15 +1,61 @@
+main > h2{
+    color: white;
+    font-size: 40px;
+}
 .preview img{
     width: 200px;
     height: 200px;
 }
-main > h2{
+.adminPanel{
+    border-radius: 5px;
+}
+.adminPanel form select{
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+.adminPanel form select option{
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+.adminPanel button,.preview button{
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+.adminPanel button:hover,.adminPanel button:active,.preview button:hover,.preview button:active{
+    background-color: #020202;
     color: white;
-    font-size: 40px;
-    text-shadow:
-        -1px -1px 0 #0021f6,
-        1px -1px 0 #3d1252,
-        -1px 1px 0 #3d1252,
-        1px 1px 0 #0021f6; /* Обводка текста */
+    border-color: white;
+}
+.adminPanel form{
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.adminPanel form > * {
+    padding: 10px;
+    margin: 10px;
+}
+.adminPanel form button{
+    grid-column: 1/3;
+    padding: 10px;
+    margin: 10px;
 }
 .preview *{
     margin: 10px;
@@ -46,11 +92,12 @@ main > h2{
 }
 .preview_buttons{
     display: flex;
-    margin: 10px;
+    margin: 5px;
     flex-direction: column;
 }
 .preview_buttons form{
     width: 100%;
+    margin: 0px;
 }
 .article{
     display: flex;
@@ -98,5 +145,3 @@ main nav a:hover,main nav a:active{
     color: black;
     background-color: rgba(255, 255, 255, 0.5);
 }
-
-

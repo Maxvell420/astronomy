@@ -37,12 +37,12 @@ class Article extends Model
     {
         $this->setAttribute('comments', $comments);
     }
-    public function setTextPreview(string $text)
+    public function setTextPreview(string $text,int $limit = 400)
     {
-        if (mb_strlen($text)>400) {
-            $text = mb_substr($text, 0, 400).'...';
+        if (mb_strlen($text)>$limit) {
+            $text = mb_substr($text, 0, $limit).'...';
         } else{
-            $text = mb_substr($text, 0, 400);
+            $text = mb_substr($text, 0, $limit);
         }
         $this->setAttribute('previewText',$text);
     }

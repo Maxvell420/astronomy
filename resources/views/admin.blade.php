@@ -1,23 +1,33 @@
-<x-content>
-    <div class="wrapper">
+<x-layout :styles="$styles">
         <h2>
             Панель управления
         </h2>
-        <form action="{{route('parser')}}" method="post">
-            <span>Запустить парсер сайта:</span>
-            <select name="parser">
-                <option value="0">Lenta.ru</option>
-                <option value="1">Astronews.ru</option>
-            </select>
-            @csrf
-            <button class="button_parser">Запустить парсер</button>
-        </form>
-        <div class="articles">
+        <div class="adminPanel">
+            <form action="{{route('parser')}}" method="post">
+                <span>Запустить парсер сайта:</span>
+                <select name="parser">
+                    <option value="0">Lenta.ru</option>
+                    <option value="1">Astronews.ru</option>
+                </select>
+                @csrf
+                <button>Запустить парсер</button>
+            </form>
+        </div>
             @foreach($articles as $article)
-                <div class="admin_row">
                     <div class="preview">
                         <a href="{{route('article.show',$article)}}">
-                            <img src="{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}">
+                            <div>
+                                <img src="{{$article->picture->path}}/{{$article->picture->name}}" alt="{{$article->picture->title}}">
+                                <div class="preview_buttons">
+                                    <form action="{{route('article.edit',$article)}}">
+                                        <button class="edit">Редактировать</button>
+                                    </form>
+                                    <form action="{{route('article.cancel',$article)}}" method="post">
+                                        <button class="delete">Удалить</button>
+                                        @csrf
+                                    </form>
+                                </div>
+                            </div>
                             <div>
                                 <h2>
                                     {{$article->title}}
@@ -31,22 +41,11 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
-                    <div class="preview_buttons">
-                        <form action="{{route('article.edit',$article)}}">
-                            <button class="edit">Редактировать</button>
-                        </form>
-                        <form action="{{route('article.cancel',$article)}}" method="post">
-                            <button class="delete">Удалить</button>
-                            @csrf
-                        </form>
-                    </div>
                 </div>
             @endforeach
-        </div>
-        {{$articles}}
-    </div>
-</x-content>
+                {{$articles}}
+
+</x-layout>
 <script>
     appendArticleCreateButton("{{route('article.create')}}")
 </script>

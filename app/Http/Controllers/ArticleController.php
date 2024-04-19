@@ -29,8 +29,9 @@ class ArticleController extends Controller
     }
     public function edit(Article $article)
     {
+        $styles = 'css/pages/articleEdit.css';
         $article->load('picture');
-        return view('article.edit', compact('article'));
+        return view('article.edit', compact(['article','styles']));
     }
     public function like(string|int $article_id)
     {

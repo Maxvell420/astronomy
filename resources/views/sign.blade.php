@@ -1,37 +1,13 @@
-<x-content>
+<x-layout :styles="$styles">
     <div class="form">
+        <h2>Регистрация</h2>
         <form action="{{route('users.save')}}" method="post">
             @csrf
-            <table>
-                <tr>
-                    <th>
-                        Регистрация
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        Логин
-                    </td>
-                    <td>
-                        <label>
-                            <input type="text" name="name" value="{{old('name')}}" placeholder="Логин">
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Пароль
-                    </td>
-                    <td>
-                        <label>
-                            <input type="password" name="password" value="{{old('password')}}" placeholder="Пароль">
-                        </label>
-                    </td>
-                </tr>
-            </table>
-            <label>
-                <input type="submit" value="log in">
-            </label>
+            <label for="name">Логин</label>
+            <input id="name" type="text" name="name" value="{{old('name')}}" placeholder="Логин">
+            <label for="password">Пароль</label>
+            <input id="password" type="password" name="password" value="{{old('password')}}" placeholder="Пароль">
+            <button type="submit">Зарегистрироваться</button>
         </form>
     </div>
-</x-content>
+</x-layout>

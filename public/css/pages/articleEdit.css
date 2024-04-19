@@ -1,0 +1,101 @@
+.editForm *{
+    font-size: 16px;
+}
+.editWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    width: 80%;
+    color: white;
+}
+.editForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.editForm label{
+    font-size: 18px;
+}
+.editImage{
+    width: 100%;
+}
+.editForm > label{
+    align-self: start;
+}
+.editForm textarea{
+    border: none;
+    background-color: #333;
+    color: #fff;
+    margin: 10px;
+    width: 90%;
+    padding: 10px;
+    min-height: 500px;
+}
+.editImageDiv{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.editImageDiv img{
+    margin: 10px;
+    width: 93%;
+}
+.editForm input[type='text']{
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    background-color: #333;
+    color: #fff;
+}
+.editHead{
+    font-size: 30px;
+    align-self: start;
+}
+.custom-file-input {
+    align-self: center;
+    /* Стилизация инпута */
+    padding: 10px 20px;
+    background-color: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    border: 1px solid #444; /* Обводка */
+    border-radius: 5px; /* Скругление углов */
+    cursor: pointer; /* Курсор при наведении */
+    outline: none; /* Убрать выделение при фокусе */
+    margin-bottom: 20px;
+}
+
+.custom-file-input:hover {
+    background-color: #555; /* Цвет фона при наведении */
+}
+
+.custom-file-input:focus {
+    border-color: #fff; /* Цвет обводки при фокусе */
+}
+
+/* Стилизация текста "Выбрать файл" */
+.save-button{
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+.save-button:hover,.save-button:active{
+    background-color: #020202;
+    color: white;
+    border-color: white;
+}

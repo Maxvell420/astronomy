@@ -8,6 +8,7 @@
 </head>
 <body>
 <script src="{{asset('bundle.js')}}"></script>
+<script>backgroundHandler()</script>
 <div class="wrapper">
     <header>
         <x-header/>

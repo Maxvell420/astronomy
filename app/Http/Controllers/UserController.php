@@ -12,9 +12,10 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
+
     public function login()
     {
-        $styles = 'css/pages.login.css';
+        $styles = 'css/pages/login.css';
         return view('login',compact(['styles']));
     }
     public function auth(Request $request): \Illuminate\Http\RedirectResponse
@@ -53,14 +54,17 @@ class UserController extends Controller
             $article->setNumberOfCommentsAttribute($numberOfComments);
             $article->setTextPreview($article->content);
         });
+        $articles->withQueryString();
         return view('dashboard',compact(['articles','styles']));
     }
     public function sign()
     {
-        return view('sign');
+        $styles = 'css/pages/login.css';
+        return view('sign',compact(['styles']));
     }
     public function admin()
     {
+        $styles = 'css/pages/admin.css';
         $articles = Article::with(['picture'])
             ->select(['id','title','content','updated_at','created_at'])
             ->orderBy('updated_at','desc')
@@ -70,9 +74,9 @@ class UserController extends Controller
             $article->setNumberOfLikesAttribute($likes);
             $numberOfComments = $article->getNumberOfComments();
             $article->setNumberOfCommentsAttribute($numberOfComments);
-            $article->setTextPreview($article->content);
+            $article->setTextPreview($article->content,1200);
         });
-        return view('admin',compact(['articles']));
+        return view('admin',compact(['articles','styles']));
     }
     public function save(Request $request)
     {

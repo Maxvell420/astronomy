@@ -1,4 +1,5 @@
 <x-layout :styles="$styles">
+    <h2>Все новости</h2>
     @foreach($articles as $article)
         <div class="preview">
             <a href="{{route('article.show',$article)}}">
