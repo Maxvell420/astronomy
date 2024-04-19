@@ -10,6 +10,7 @@ class ArticleController extends Controller
 {
     public function show(Article $article)
     {
+        $styles = 'css/pages/articleShow.css';
         $article->load(['picture', 'comments.user']);
         $commentsNumber = $article->getNumberOfComments();
         $likes = $article->getNumberOfLikes();
@@ -24,7 +25,7 @@ class ArticleController extends Controller
             $commentsLikes = $comment->getNumberOfLikes();
             $comment->setNumberOfLikesAttribute($commentsLikes);
         });
-        return view('article.show', compact(['article','commentsNumber','liked','likes','comments']));
+        return view('article.show', compact(['article','commentsNumber','liked','likes','comments','styles']));
     }
     public function edit(Article $article)
     {

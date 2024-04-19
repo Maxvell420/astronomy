@@ -14,7 +14,8 @@ class UserController extends Controller
 {
     public function login()
     {
-        return view('login');
+        $styles = 'css/pages.login.css';
+        return view('login',compact(['styles']));
     }
     public function auth(Request $request): \Illuminate\Http\RedirectResponse
     {
@@ -40,6 +41,7 @@ class UserController extends Controller
     }
     public function dashboard()
     {
+        $styles = 'css/pages/dashboard.css';
         $articles = Article::with(['picture'])
             ->select(['id','title','content','updated_at','created_at'])
             ->orderBy('updated_at','desc')
@@ -51,7 +53,7 @@ class UserController extends Controller
             $article->setNumberOfCommentsAttribute($numberOfComments);
             $article->setTextPreview($article->content);
         });
-        return view('dashboard',compact(['articles']));
+        return view('dashboard',compact(['articles','styles']));
     }
     public function sign()
     {

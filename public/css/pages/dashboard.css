@@ -1,0 +1,92 @@
+.preview img{
+    width: 200px;
+    height: 200px;
+}
+.preview *{
+    margin: 10px;
+}
+.preview a{
+    display: flex;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.preview a:active,.preview a:hover{
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.preview{
+    width: 80%;
+}
+.preview a{
+    display: flex;
+}
+.preview a > div{
+    display: flex;
+    flex-direction: column;
+}
+.previewText{
+    display: block;
+    margin-bottom: 10px;
+}
+.likes{
+    text-align: end;
+}
+.preview_buttons{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+.preview_buttons form{
+    width: 100%;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.dashboardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.articleInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main nav *{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+main nav *{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+main nav a:hover,main nav a:active{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+

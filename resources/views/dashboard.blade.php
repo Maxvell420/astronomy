@@ -1,4 +1,4 @@
-<x-dashlayout>
+<x-layout :styles="$styles">
     @foreach($articles as $article)
         <div class="preview">
             <a href="{{route('article.show',$article)}}">
@@ -19,4 +19,4 @@
         </div>
     @endforeach
     {{$articles}}
-</x-dashlayout>
+</x-layout>

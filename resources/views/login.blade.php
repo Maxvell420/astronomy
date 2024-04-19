@@ -1,4 +1,4 @@
-<x-content>
+<x-layout :styles="$styles">
     <div class="form">
         <form action="{{route("auth")}}" method="POST">
             @csrf
@@ -48,4 +48,4 @@
             @endif
         </div>
     </div>
-</x-content>
+</x-layout>

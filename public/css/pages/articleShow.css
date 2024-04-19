@@ -1,0 +1,172 @@
+.articleImg{
+    max-width: 80%;
+    min-width: 60%;
+    margin-right: 10px;
+    align-self: center;
+}
+.articleWrapper h2{
+    display: block;
+    width: 100%;
+    text-align: start;
+    font-family: Arial,sans-serif;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.articleWrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.articleWrapper > a{
+    text-decoration: none;
+    align-self: start;
+    padding-left: 10px;
+    color: #9136af;
+    transition: color 0.3s ease;
+}
+.articleWrapper > a:hover,.articleWrapper > a:hover{
+    color: white;
+}
+.articleText{
+    margin-top: 10px;
+}
+textarea {
+    resize: none; /* Запрещаем изменение размера */
+}
+.commentPanel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.comments{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    /*border: 1px solid #f3f3f3;*/
+}
+.articleBlock{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-height: 700px;
+    max-width: 1200px;
+}
+.articleBlock img{
+    min-width: 700px;
+    max-width: 1200px;
+}
+.comment{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    /*background-color: white;*/
+    border-top: 1px solid #f3f3f3;
+    padding: 20px;
+}
+.comment:not(:first-child) {
+    border-bottom: 1px solid #f3f3f3;
+}
+.newComment {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.newComment form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newComment textarea{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.comment p{
+    margin: 10px;
+}
+.newComment button{
+    padding: 5px;
+}
+.panel button,.comment button {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    border:none;
+    color: #fff; /* Цвет текста на кнопках */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.commentPanel form{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+.invisible{
+    display: none;
+}
+.panel button[disabled],.comment button[disabled]{
+    pointer-events: none; /* Делаем кнопку неактивной, если пользователь не аутентифицирован */
+    opacity: 0.5; /* Уменьшаем прозрачность для визуального обозначения неактивности */
+}
+.panel button:hover,.comment button:hover {
+    border: 1px solid #333333;
+    transform: scale(1.1);
+}
+.panel button img,.comment button img{
+    padding: 0px;
+    width: 100%;
+}
+
+.panel{
+    display: flex;
+    justify-content: end;
+}
+.panel > div{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articleText p{
+    margin: 0;
+    line-height:1.5;
+}
+.articleWrapper .button{
+    background-color: #a9a9a9;
+    color: #333333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.articleWrapper .button:hover,.articleWrapper .button:active{
+    background-color: #020202;
+    color: white;
+    border-color: white;
+}

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="{{asset('style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/layout/layout.css')}}">
+    @if(isset($styles))
+        <link rel="stylesheet" href="{{asset($styles)}}">
+    @endif
 </head>
 <body>
 <script src="{{asset('bundle.js')}}"></script>
@@ -10,9 +13,7 @@
         <x-header/>
     </header>
     <main>
-        <div class="content">
-            {{$slot}}
-        </div>
+        {{$slot}}
     </main>
 </div>
 </body>
