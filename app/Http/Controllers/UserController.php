@@ -15,8 +15,9 @@ class UserController extends Controller
 
     public function login()
     {
+        $title = trans('titles.login');
         $styles = 'css/pages/login.css';
-        return view('login',compact(['styles']));
+        return view('login',compact(['styles','title']));
     }
     public function auth(Request $request): \Illuminate\Http\RedirectResponse
     {
@@ -42,6 +43,7 @@ class UserController extends Controller
     }
     public function dashboard()
     {
+        $title = trans('titles.dashboard');
         $styles = 'css/pages/dashboard.css';
         $articles = Article::with(['picture'])
             ->select(['id','title','content','updated_at','created_at'])
@@ -55,15 +57,17 @@ class UserController extends Controller
             $article->setTextPreview($article->content);
         });
         $articles->withQueryString();
-        return view('dashboard',compact(['articles','styles']));
+        return view('dashboard',compact(['articles','styles','title']));
     }
     public function sign()
     {
+        $title = trans('titles.signUp');
         $styles = 'css/pages/login.css';
-        return view('sign',compact(['styles']));
+        return view('sign',compact(['styles','title']));
     }
     public function admin()
     {
+        $title = trans('titles.adminka');
         $styles = 'css/pages/admin.css';
         $articles = Article::with(['picture'])
             ->select(['id','title','content','updated_at','created_at'])
@@ -76,7 +80,7 @@ class UserController extends Controller
             $article->setNumberOfCommentsAttribute($numberOfComments);
             $article->setTextPreview($article->content,1200);
         });
-        return view('admin',compact(['articles','styles']));
+        return view('admin',compact(['articles','styles','title']));
     }
     public function save(Request $request)
     {
@@ -90,7 +94,9 @@ class UserController extends Controller
     }
     public function article()
     {
-        return view('article');
+        $title = trans('titles.articleCreate');
+        $styles = 'css/pages/articleEdit.css';
+        return view('article',compact(['styles','title']));
     }
     public function articleSave(Request $request)
     {

@@ -69,3 +69,26 @@ ended parsing https://lenta.ru/news/2024/04/13/ssha-otrabotayut-na-orbite-otrazh
 started parsing https://lenta.ru/news/2024/04/12/kitayskiy-sputnik-retranslyator-proshel-ispytaniya-na-okololunnoy-orbite/
 ended parsing https://lenta.ru/news/2024/04/12/kitayskiy-sputnik-retranslyator-proshel-ispytaniya-na-okololunnoy-orbite/
 ended parsing session successfully
+started parsing https://lenta.ru/rubrics/science/cosmos/
+ended parsing https://lenta.ru/rubrics/science/cosmos/
+started parsing https://lenta.ru/news/2024/04/23/jumbo/
+ended parsing https://lenta.ru/news/2024/04/23/jumbo/
+started parsing https://lenta.ru/news/2024/04/23/space-beam/
+ended parsing https://lenta.ru/news/2024/04/23/space-beam/
+started parsing https://lenta.ru/news/2024/04/22/galaxy/
+ended parsing https://lenta.ru/news/2024/04/22/galaxy/
+started parsing https://lenta.ru/news/2024/04/22/s-vostochnogo-dopustili-puski-vozvraschaemoy-rakety-korona/
+ended parsing https://lenta.ru/news/2024/04/22/s-vostochnogo-dopustili-puski-vozvraschaemoy-rakety-korona/
+started parsing https://lenta.ru/news/2024/04/19/spacex-ob-edinilas-s-northrop-grumman-dlya-sozdaniya-voennyh-sputnikov/
+ended parsing https://lenta.ru/news/2024/04/19/spacex-ob-edinilas-s-northrop-grumman-dlya-sozdaniya-voennyh-sputnikov/
+started parsing https://lenta.ru/news/2024/04/19/v-rossii-proekt-maska-po-osvoeniyu-marsa-sochli-nerealizuemym/
+ended parsing https://lenta.ru/news/2024/04/19/v-rossii-proekt-maska-po-osvoeniyu-marsa-sochli-nerealizuemym/
+started parsing https://lenta.ru/news/2024/04/18/starliner-pribyl-na-kosmodrom/
+ended parsing https://lenta.ru/news/2024/04/18/starliner-pribyl-na-kosmodrom/
+started parsing https://lenta.ru/news/2024/04/18/ssha-zahoteli-vysaditsya-na-lunu-ranshe-kitaya/
+ended parsing https://lenta.ru/news/2024/04/18/ssha-zahoteli-vysaditsya-na-lunu-ranshe-kitaya/
+started parsing https://lenta.ru/news/2024/04/18/v-rossii-nachali-ispytaniya-pervogo-nanosputnika-s-radiolokatorom/
+ended parsing https://lenta.ru/news/2024/04/18/v-rossii-nachali-ispytaniya-pervogo-nanosputnika-s-radiolokatorom/
+started parsing https://lenta.ru/news/2024/04/17/progress-ms-27-otpravyat-k-mks-v-mae/
+ended parsing https://lenta.ru/news/2024/04/17/progress-ms-27-otpravyat-k-mks-v-mae/
+ended parsing session successfully

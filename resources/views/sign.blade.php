@@ -1,4 +1,4 @@
-<x-layout :styles="$styles">
+<x-layout :styles="$styles" :title="$title">
     <div class="form">
         <h2>Регистрация</h2>
         <form action="{{route('users.save')}}" method="post">

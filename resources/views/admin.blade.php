@@ -1,4 +1,4 @@
-<x-layout :styles="$styles">
+<x-layout :styles="$styles" :title="$title">
         <h2>
             Панель управления
         </h2>

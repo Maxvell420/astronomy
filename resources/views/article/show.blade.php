@@ -1,4 +1,4 @@
-<x-layout :styles="$styles">
+<x-layout :styles="$styles" :title="$title">
     <div class="articleWrapper">
         <h2>
             {{$article->title}}

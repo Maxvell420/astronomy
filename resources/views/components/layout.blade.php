@@ -2,6 +2,10 @@
 <html>
 <head>
     <link rel="stylesheet" href="{{asset('css/layout/layout.css')}}">
+    <title>
+        {{$title??'my cool title'}}
+    </title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     @if(isset($styles))
         <link rel="stylesheet" href="{{asset($styles)}}">
     @endif

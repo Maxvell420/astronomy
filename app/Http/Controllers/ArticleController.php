@@ -10,6 +10,7 @@ class ArticleController extends Controller
 {
     public function show(Article $article)
     {
+        $title = trans('titles.article',['title'=>$article->title]);
         $styles = 'css/pages/articleShow.css';
         $article->load(['picture', 'comments.user']);
         $commentsNumber = $article->getNumberOfComments();
@@ -25,13 +26,14 @@ class ArticleController extends Controller
             $commentsLikes = $comment->getNumberOfLikes();
             $comment->setNumberOfLikesAttribute($commentsLikes);
         });
-        return view('article.show', compact(['article','commentsNumber','liked','likes','comments','styles']));
+        return view('article.show', compact(['article','commentsNumber','liked','likes','comments','styles','title']));
     }
     public function edit(Article $article)
     {
         $styles = 'css/pages/articleEdit.css';
+        $title = trans('titles.articleEdit',['title'=>$article->title]);
         $article->load('picture');
-        return view('article.edit', compact(['article','styles']));
+        return view('article.edit', compact(['article','styles','title']));
     }
     public function like(string|int $article_id)
     {

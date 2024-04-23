@@ -1,4 +1,4 @@
-<x-layout :styles="$styles">
+<x-layout :styles="$styles" :title="$title">
     <h2>Все новости</h2>
     @foreach($articles as $article)
         <div class="preview">

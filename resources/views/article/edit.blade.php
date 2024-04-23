@@ -1,4 +1,4 @@
-<x-layout :styles="$styles">
+<x-layout :styles="$styles" :title="$title">
     <div class="editWrapper">
         <h3 class="editHead">
             Редактирование новости: {{$article->title}}

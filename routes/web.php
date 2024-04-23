@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ParserController;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ArticleController;
@@ -36,3 +37,6 @@ Route::get('logout',[UserController::class,'logout'])->name('logout');
 Route::get('/sign',[UserController::class,'sign'])->name('sign');
 Route::post('users.save',[UserController::class,'save'])->name('users.save');
 Route::get('/article/{article}/show',[ArticleController::class,'show'])->name('article.show');
+Route::get('/migrate',function (){
+    Artisan::call('migrate --seed');
+});
