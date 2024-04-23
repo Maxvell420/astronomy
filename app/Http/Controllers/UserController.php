@@ -56,7 +56,6 @@ class UserController extends Controller
             $article->setNumberOfCommentsAttribute($numberOfComments);
             $article->setTextPreview($article->content);
         });
-        $articles->withQueryString();
         return view('dashboard',compact(['articles','styles','title']));
     }
     public function sign()
